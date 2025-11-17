@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanu Gupta Portfolio</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Icons (Font Awesome) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- External CSS File -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER / HERO SECTION ================= -->
+<header>
+    <h1>Tanu Gupta</h1>
+    <p>Web Developer & Graphic Designer</p>
+
+    <!-- Button to scroll down to Projects -->
+    <a href="#projects">View My Work</a>
+</header>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <!-- Short introduction -->
+    <p>Hi! I’m Tanu Gupta, a passionate Web Developer and Graphic Designer. I enjoy creating responsive, interactive web projects and combining creativity with technical skills.</p>
+</section>
+
+<!-- ================= PROJECTS SECTION ================= -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <!-- Projects container grid -->
+    <div class="projects-container">
+
+        <!-- Project 1: Calculator App -->
+        <div class="project-card">
+            <img src="images/calculator.png" alt="Calculator Project">
+            <h3>Web Calculator</h3>
+            <p>A simple and responsive calculator built using HTML, CSS, and JavaScript.</p>
+
+            <!-- Buttons for Output and GitHub Code -->
+            <div class="project-links">
+                <a href="#" target="_blank">View Output</a>
+                <a href="https://github.com/Tulsi15Gupta/smart-Calculator" target="_blank">View Code</a>
+            </div>
+        </div>
+
+        <!-- Project 2: Weather App -->
+        <div class="project-card">
+            <img src="images/weather.png" alt="Weather API Project">
+            <h3>Weather API App</h3>
+            <p>Real-time weather app fetching data using OpenWeatherMap API.</p>
+
+            <!-- Buttons for Output and GitHub Code -->
+            <div class="project-links">
+                <a href="#" target="_blank">View Output</a>
+                <a href="https://github.com/Tulsi15Gupta/weather-app" target="_blank">View Code</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Button linking to GitHub Profile -->
+    <div class="github-button">
+        <a href="https://github.com/Tulsi15Gupta?tab=repositories" target="_blank">View My GitHub Repository</a>
+    </div>
+
+</section>
+
+<!-- ================= SKILLS SECTION ================= -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <!-- Skill tags -->
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">API Integration</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Canva / Figma</div>
+    </div>
+</section>
+
+<!-- ================= CONTACT FORM SECTION ================= -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <!-- Contact Form (Name, Email, Message) -->
+    <form id="contact-form">
+        <input type="text" name="from_name" placeholder="Your Name" required>
+        <input type="email" name="from_email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+        <!-- Form Submit Button -->
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    &copy; 2025 Tanu Gupta. All rights reserved.
+</footer>
+
+<!-- External JavaScript File -->
+<script src="script.js"></script>
+
+</body>
+</html>
